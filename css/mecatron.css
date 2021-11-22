@@ -1,0 +1,28 @@
+h1,p{
+  text-align: center;
+  color: #CDFFFE
+}
+body{
+  background-color: #3455F9;
+  font-size: 18px;
+}
+#divPrincipal{
+  width: 90%;
+  height: 600px;
+  margin: auto;
+  border: 2px solid #CDFFFE;
+  border-radius: 10px;
+  position: relative;
+  background-color: #CDFFFE;
+  font-size: 1.5em;
+}
+/*Regla para las palabras que vuelan*/
+.palabra{
+    position: absolute;
+    border: 2px solid #3455F9;
+    border-radius: 10px;
+    /*background-color: #3455F9*/;
+}
+.palabra span{
+  color: green;
+}
